@@ -1,4 +1,9 @@
 # HTML
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Free Trial(de9a027c-9368-4ac2-aad4-58b9db78b0f3)'
+    appName: 'htmlcal'
+    resourceGroupName: 'Team'
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
